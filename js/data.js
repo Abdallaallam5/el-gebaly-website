@@ -95,15 +95,21 @@ const I18N = {
     ],
 
     'partners.eyebrow': 'الشركاء',
-    'partners.title': 'منظومة شركاء نثق بها',
-    'partners.lead': 'نعمل مع نخبة من المصنّعين والموردين والاستشاريين لضمان جودة المواد ودقة التنفيذ.',
+    'partners.title': 'أكبر الشركات العقارية والسياحية في مصر',
+    'partners.lead': 'اخترنا شركاء عمل من كبرى شركات التطوير العقاري والسياحي في مصر، ونفذنا لهم مشروعات مكافحة الحريق والأعمال الميكانيكية بثقة تامة.',
     'partners.list': [
-      { icon: 'pump', t: 'مصنّعو الطلمبات', d: 'طلمبات ومحركات صناعية' },
-      { icon: 'valve', t: 'موردو المحابس والوصلات', d: 'محابس وفلانشات وتجهيزات' },
-      { icon: 'steel', t: 'مصانع الاستانلس ستيل', d: 'مواسير وأكسسوارات معتمدة' },
-      { icon: 'fire', t: 'موردو أنظمة الإطفاء', d: 'رشاشات ولوحات إنذار وتحكم' },
-      { icon: 'compass', t: 'المكاتب الاستشارية', d: 'استشاريون ومصممون معتمدون' },
-      { icon: 'factory', t: 'المقاولون العموميون', d: 'شراكات تنفيذية للمشروعات الكبرى' }
+      { logo: 'noor-tmg.png', t: 'نور – مجموعة طلعت مصطفى' },
+      { logo: 'palm-hills.svg', t: 'بالم هيلز للتعمير' },
+      { logo: 'sodic.svg', t: 'SODIC' },
+      { logo: 'hyde-park.png', t: 'هايد بارك ديفلوبمنتس' },
+      { logo: 'mountain-view.png', t: 'ماونتن فيو' },
+      { logo: 'ora.png', t: 'Ora Developers' },
+      { logo: 'orascom-dh.png', t: 'أوراسكوم للتطوير' },
+      { logo: 'hap.svg', t: 'حسن علام العقارية' },
+      { logo: 'madinet-masr.png', t: 'مدينة مصر' },
+      { logo: 'al-marasem.png', t: 'المراسم الدولية للتعمير' },
+      { logo: 'emaar-misr.svg', t: 'إعمار مصر' },
+      { logo: 'pyramisa.png', t: 'بيراميزا للفنادق والمنتجعات' }
     ],
 
     'contact.eyebrow': 'تواصل معنا',
@@ -232,15 +238,21 @@ const I18N = {
     ],
 
     'partners.eyebrow': 'Partners',
-    'partners.title': 'An ecosystem of partners we trust',
-    'partners.lead': 'We work with leading manufacturers, suppliers and consultants to ensure material quality and precise execution.',
+    'partners.title': 'The largest real estate & hospitality names in Egypt',
+    'partners.lead': 'We are the trusted delivery partner for fire fighting and mechanical works to some of the largest real estate and hospitality developers in the Egyptian market.',
     'partners.list': [
-      { icon: 'pump', t: 'Pump Manufacturers', d: 'Industrial pumps & motors' },
-      { icon: 'valve', t: 'Valve & Fitting Suppliers', d: 'Valves, flanges & fittings' },
-      { icon: 'steel', t: 'Stainless Steel Mills', d: 'Certified pipes & accessories' },
-      { icon: 'fire', t: 'Fire System Vendors', d: 'Sprinklers, alarm & control panels' },
-      { icon: 'compass', t: 'Consulting Offices', d: 'Approved consultants & designers' },
-      { icon: 'factory', t: 'General Contractors', d: 'Delivery partnerships on major projects' }
+      { logo: 'noor-tmg.png', t: 'Noor – Talaat Moustafa Group' },
+      { logo: 'palm-hills.svg', t: 'Palm Hills Developments' },
+      { logo: 'sodic.svg', t: 'SODIC' },
+      { logo: 'hyde-park.png', t: 'Hyde Park Developments' },
+      { logo: 'mountain-view.png', t: 'Mountain View' },
+      { logo: 'ora.png', t: 'Ora Developers' },
+      { logo: 'orascom-dh.png', t: 'Orascom Development' },
+      { logo: 'hap.svg', t: 'Hassan Allam Properties' },
+      { logo: 'madinet-masr.png', t: 'Madinet Masr' },
+      { logo: 'al-marasem.png', t: 'Al Marasem International' },
+      { logo: 'emaar-misr.svg', t: 'Emaar Misr' },
+      { logo: 'pyramisa.png', t: 'Pyramisa Hotels & Resorts' }
     ],
 
     'contact.eyebrow': 'Contact Us',
@@ -294,345 +306,281 @@ const I18N = {
    --------------------------------------------------------------------- */
 const PROJECTS = [
   {
-    id: 'pharma-cleanroom-piping',
-    image: 'project-1.jpg',
-    gallery: [],
-    year: '2025',
-    ar: {
-      category: 'مواسير الاستانلس ستيل',
-      title: 'شبكات استانلس ستيل صحية لغرف الإنتاج النظيفة',
-      summary: 'تنفيذ وتركيب خطوط استانلس ستيل صحية لمصنع أدوية، بلحام TIG وتجهيزات قياس وتحكم.',
-      sector: 'الأدوية والأغذية',
-      location: 'العاشر من رمضان، الشرقية',
-      duration: '7 أشهر',
-      overview: [
-        'نفّذ فريقنا شبكة مواسير استانلس ستيل صحية متكاملة لمصنع أدوية، تخدم منطقة إنتاج نظيفة (Clean Room) وتربط خزانات التحضير بخطوط التعبئة، مع الالتزام بأعلى اشتراطات النظافة والتتبّع.',
-        'شملت الأعمال تصنيع المواسير وتركيبها بلحام TIG مدارّ بالغاز الخامل، وتركيب محابس هوائية ومقاييس ضغط وعدادات تدفق، واختبارات الضغط والتنظيف والتخميل قبل التسليم.'
-      ],
-      scope: [
-        'تصنيع وتركيب مواسير استانلس ستيل بتشطيب صحي',
-        'لحام TIG مع تنقية داخلية بالغاز الخامل',
-        'محابس هوائية وعدادات تدفق ومقاييس ضغط',
-        'اختبارات الضغط والتسريب والتنظيف والتخميل',
-        'تجهيز الدعامات والتعليق وفق الاشتراطات الصحية'
-      ],
-      specs: [
-        ['نوع المواسير', 'استانلس ستيل صحي'],
-        ['طريقة اللحام', 'TIG بتنقية داخلية'],
-        ['الوصلات', 'Tri-Clamp وفلانشات'],
-        ['الاختبارات', 'ضغط + تخميل']
-      ]
-    },
-    en: {
-      category: 'Stainless Steel Piping',
-      title: 'Hygienic stainless steel networks for clean production rooms',
-      summary: 'Fabrication and installation of hygienic stainless steel lines for a pharmaceutical plant, with TIG welding and instrumentation.',
-      sector: 'Pharmaceutical & Food',
-      location: '10th of Ramadan City, Sharqia',
-      duration: '7 months',
-      overview: [
-        'Our team executed a complete hygienic stainless steel piping network for a pharmaceutical plant, serving a clean production area and connecting preparation tanks to the filling lines, in line with the strictest cleanliness and traceability requirements.',
-        'The works included pipe fabrication and installation using TIG welding with inert-gas purging, pneumatic valves, pressure gauges and flow meters, followed by pressure testing, cleaning and passivation before handover.'
-      ],
-      scope: [
-        'Fabrication and installation of hygienic-finish stainless steel pipework',
-        'TIG welding with internal inert-gas purging',
-        'Pneumatic valves, flow meters and pressure gauges',
-        'Pressure and leak testing, cleaning and passivation',
-        'Supports and hangers to hygienic requirements'
-      ],
-      specs: [
-        ['Pipe type', 'Hygienic stainless steel'],
-        ['Welding', 'TIG with internal purge'],
-        ['Connections', 'Tri-Clamp & flanges'],
-        ['Testing', 'Pressure + passivation']
-      ]
-    }
-  },
-  {
-    id: 'factory-fire-fighting-network',
-    image: 'project-2.jpg',
-    gallery: [],
-    year: '2024',
+    id: 'ministry-fire-fighting',
+    image: 'projects/ministry-fire-fighting/hero.jpg',
+    gallery: ['projects/ministry-fire-fighting/1.jpg', 'projects/ministry-fire-fighting/2.jpg', 'projects/ministry-fire-fighting/3.jpg', 'projects/ministry-fire-fighting/4.jpg', 'projects/ministry-fire-fighting/5.jpg'],
+    year: '',
     ar: {
       category: 'مكافحة الحريق',
-      title: 'شبكة رشاشات مكافحة الحريق وغرفة الطلمبات لمنشأة صناعية',
-      summary: 'تنفيذ شبكة رشاشات آلية ومحطة ضخ متكاملة لمبنى إنتاجي متعدد الأدوار.',
-      sector: 'المصانع والصناعات التحويلية',
-      location: 'السادس من أكتوبر، الجيزة',
-      duration: '5 أشهر',
+      title: 'شبكة مكافحة الحريق – وزارة التجارة والصناعة ووزارة التموين',
+      summary: 'تنفيذ شبكة مكافحة الحريق بالكامل داخل مباني الوزارة، بما في ذلك جناح الوزير، بالتعاون مع شركة UNI-TEC.',
+      sector: 'مبانٍ حكومية ومؤسسية',
+      location: 'مجمع الوزارات، القاهرة',
+      duration: '',
       overview: [
-        'تنفيذ شبكة مكافحة حريق كاملة لمبنى صناعي متعدد الأدوار، تشمل الرايزرات الرئيسية وشبكات الرشاشات الآلية وغرفة الطلمبات ولوحات التحكم، لتأمين المبنى وحماية العاملين والمعدات.',
-        'تم دهان المواسير باللون الأحمر المعتمد وتركيب صمامات التحكم (Alarm Valves) ومقاييس الضغط عند كل رايزر، مع اختبارات هيدروستاتيكية وتشغيل تجريبي للطلمبات قبل التسليم.'
+        'تم تنفيذ أعمال شبكة مكافحة الحريق بالكامل داخل مباني الوزارة، بما في ذلك جناح الوزير، وذلك من خلال تنفيذ الأعمال من الباطن بالتعاون مع شركة UNI-TEC.',
+        'تم تنفيذ أعمال الشبكة وفقًا لأصول التنفيذ الهندسية ومتطلبات المشروع، بما يضمن تغطية كاملة لكل مبنى من مباني المجمع الوزاري وحماية العاملين والمرتادين.'
       ],
       scope: [
-        'توريد وتركيب مواسير الحريق ورايزرات التغذية',
-        'شبكة الرشاشات الآلية بالأدوار',
-        'محطة الطلمبات ولوحات التحكم',
-        'صمامات الإنذار ومقاييس الضغط عند كل رايزر',
-        'الاختبار الهيدروستاتيكي والتشغيل التجريبي'
+        'تنفيذ شبكة مكافحة الحريق بالكامل داخل جميع مباني الوزارة',
+        'تغطية جناح الوزير بأنظمة الحماية من الحريق',
+        'تركيب صناديق الحريق وشبكات الرشاشات والإنذار وفق المعايير الهندسية',
+        'تنفيذ الأعمال بصفة مقاول من الباطن بالتعاون مع شركة UNI-TEC'
       ],
       specs: [
-        ['نظام الحماية', 'رشاشات آلية (Wet System)'],
-        ['المواسير', 'حديد أسود مدهون'],
-        ['التغذية', 'طلمبات كهربائية + جوكي'],
-        ['الاختبار', 'هيدروستاتيكي']
+        ['طبيعة العمل', 'مقاول من الباطن'],
+        ['الشريك التنفيذي', 'UNI-TEC'],
+        ['نطاق التغطية', 'كافة مباني الوزارة وجناح الوزير'],
+        ['المعايير', 'أصول التنفيذ الهندسية ومتطلبات المشروع']
       ]
     },
     en: {
       category: 'Fire Fighting',
-      title: 'Sprinkler network and fire pump room for an industrial facility',
-      summary: 'A complete automatic sprinkler network and pump station for a multi-storey production building.',
-      sector: 'Factories & Manufacturing',
-      location: '6th of October City, Giza',
-      duration: '5 months',
+      title: 'Fire Fighting Network – Ministry of Trade & Industry and Ministry of Supply',
+      summary: 'Complete execution of the fire fighting network throughout the ministry facilities, including the Minister’s Wing, in cooperation with UNI-TEC.',
+      sector: 'Government & Institutional Buildings',
+      location: 'Ministries Complex, Cairo',
+      duration: '',
       overview: [
-        'A complete fire fighting network for a multi-storey industrial building, covering main risers, automatic sprinkler networks, the pump room and control panels — protecting the building, its people and equipment.',
-        'Pipework was painted in the approved red finish, with alarm valves and pressure gauges installed at every riser, followed by hydrostatic testing and trial pump runs before handover.'
+        'Complete execution of the fire fighting network throughout the ministry facilities, including the Minister’s Wing. The works were carried out as a subcontractor in cooperation with UNI-TEC.',
+        'The installation and execution of the fire protection network across the buildings followed professional engineering practices and project requirements, protecting staff and visitors across the complex.'
       ],
       scope: [
-        'Supply and installation of fire pipework and feed risers',
-        'Automatic sprinkler network on every floor',
-        'Pump station and control panels',
-        'Alarm valves and pressure gauges at each riser',
-        'Hydrostatic testing and trial commissioning'
+        'Complete fire fighting network across all ministry buildings',
+        'Fire protection coverage for the Minister’s Wing',
+        'Installation of hose cabinets, sprinkler networks and alarm devices to engineering standards',
+        'Works executed as subcontractor in cooperation with UNI-TEC'
       ],
       specs: [
-        ['Protection system', 'Automatic sprinklers (wet)'],
-        ['Pipework', 'Painted black steel'],
-        ['Supply', 'Electric + jockey pumps'],
-        ['Testing', 'Hydrostatic']
+        ['Role', 'Subcontractor'],
+        ['Delivery partner', 'UNI-TEC'],
+        ['Coverage', 'All ministry buildings + Minister’s Wing'],
+        ['Standards', 'Professional engineering practice & project requirements']
       ]
     }
   },
   {
-    id: 'industrial-pump-station',
-    image: 'project-3.jpg',
-    gallery: [],
-    year: '2024',
+    id: 'flow-paradise-steam-network',
+    image: 'projects/flow-paradise/hero.jpg',
+    gallery: ['projects/flow-paradise/1.jpg', 'projects/flow-paradise/2.jpg', 'projects/flow-paradise/3.jpg', 'projects/flow-paradise/4.jpg', 'projects/flow-paradise/5.jpg'],
+    year: '',
     ar: {
-      category: 'محطات الطلمبات',
-      title: 'محطة طلمبات صناعية بخطوط استانلس ستيل معزولة',
-      summary: 'تركيب مجموعة طلمبات طرد مركزي وخطوط تغذية استانلس ستيل ضمن محطة خدمات رئيسية.',
-      sector: 'المصانع والصناعات التحويلية',
-      location: 'برج العرب، الإسكندرية',
-      duration: '6 أشهر',
+      category: 'شبكات البخار والمكثفات',
+      title: 'فندق Flow Paradise سهل حشيش – أعمال شبكة البخار',
+      summary: 'توريد وتركيب شبكة البخار داخل غرفة الغلايات وغرفة المغسلة، بالتعاون مع شركة براميدا للمنتجعات السياحية.',
+      sector: 'الفنادق والقطاع السياحي',
+      location: 'سهل حشيش، الغردقة',
+      duration: '',
       overview: [
-        'تنفيذ محطة طلمبات صناعية رئيسية تضم مجموعة طلمبات طرد مركزي على قواعد خرسانية، مع خطوط شفط وطرد من الاستانلس ستيل المعزول ومحابس التحكم وعدادات الضغط.',
-        'راعى التصميم سهولة الصيانة والتشغيل، مع تخصيص مسارات أمان وعلامات أرضية، وتركيب دعامات فولاذية للحد من الاهتزازات ونقل الأحمال بأمان.'
+        'تم تنفيذ أعمال توريد وتركيب شبكة البخار داخل غرفة الغلايات وغرفة المغسلة بفندق Flow Paradise سهل حشيش – الغردقة.',
+        'تم تنفيذ الأعمال بالتعاون مع شركة براميدا للمنتجعات السياحية كمقاول عام، وشملت الأعمال تنفيذ وتركيب شبكة البخار وربطها بالخدمات الخاصة بغرفة الغلايات والمغسلة وفقًا لأصول التنفيذ الهندسية.'
       ],
       scope: [
-        'تركيب وتحميل الطلمبات على القواعد الخرسانية',
-        'خطوط شفط وطرد استانلس ستيل بعزل حراري',
-        'محابس تحكم وعدم رجوع ومقاييس ضغط',
-        'دعامات وهياكل فولاذية مضادة للاهتزاز',
-        'محاذاة المحركات والتشغيل التجريبي'
+        'توريد وتركيب شبكة مواسير البخار الرئيسية',
+        'ربط الشبكة بغرفة الغلايات (Boiler Room)',
+        'تغذية غرفة المغسلة (Laundry) بخطوط البخار والمكثفات',
+        'تنفيذ الأعمال بالتعاون مع المقاول العام "براميدا للمنتجعات السياحية"'
       ],
       specs: [
-        ['نوع الطلمبات', 'طرد مركزي'],
-        ['المواسير', 'استانلس ستيل معزول'],
-        ['الوصلات', 'فلانشات'],
-        ['التشغيل', 'محاذاة + اختبار أداء']
+        ['النظام', 'شبكة بخار ومكثفات'],
+        ['يخدم', 'غرفة الغلايات وغرفة المغسلة'],
+        ['المقاول العام', 'براميدا للمنتجعات السياحية'],
+        ['العزل', 'عزل حراري كامل لخطوط التغذية']
       ]
     },
     en: {
-      category: 'Pump Stations',
-      title: 'Industrial pump station with insulated stainless steel lines',
-      summary: 'Installation of centrifugal pump sets and stainless steel feed lines in a main utilities station.',
-      sector: 'Factories & Manufacturing',
-      location: 'Borg El Arab, Alexandria',
-      duration: '6 months',
+      category: 'Steam & Condensate Networks',
+      title: 'Flow Paradise Sahl Hasheesh Hotel – Steam Network',
+      summary: 'Supply and installation of the steam piping network serving the boiler room and laundry facilities, in cooperation with Pramida for Tourist Resorts.',
+      sector: 'Hospitality & Tourism',
+      location: 'Sahl Hasheesh, Hurghada',
+      duration: '',
       overview: [
-        'A main industrial pump station comprising centrifugal pump sets on concrete plinths, with insulated stainless steel suction and discharge lines, control valves and pressure gauges.',
-        'The design prioritised ease of maintenance and operation, with marked safety walkways and floor markings, and steel supports that damp vibration and transfer loads safely.'
+        'Supply and installation of the steam piping network serving the boiler room and laundry facilities at Flow Paradise Sahl Hasheesh Hotel, Hurghada.',
+        'The works were executed in cooperation with Pramida for Tourist Resorts as general contractor, covering the professional installation and integration of the steam piping system within the hotel’s operational facilities.'
       ],
       scope: [
-        'Placement and installation of pumps on concrete plinths',
-        'Insulated stainless steel suction and discharge lines',
-        'Control, check valves and pressure gauges',
-        'Anti-vibration steel supports and frames',
-        'Motor alignment and trial commissioning'
+        'Supply and installation of the main steam piping network',
+        'Connection of the network to the boiler room',
+        'Feeding the laundry facility with steam and condensate lines',
+        'Works executed in cooperation with general contractor Pramida for Tourist Resorts'
       ],
       specs: [
-        ['Pump type', 'Centrifugal'],
-        ['Pipework', 'Insulated stainless steel'],
-        ['Connections', 'Flanged'],
-        ['Commissioning', 'Alignment + performance test']
+        ['System', 'Steam & condensate network'],
+        ['Serves', 'Boiler room and laundry facility'],
+        ['General contractor', 'Pramida for Tourist Resorts'],
+        ['Insulation', 'Full thermal insulation of feed lines']
       ]
     }
   },
   {
-    id: 'chilled-water-plant-room',
-    image: 'project-4.jpg',
-    gallery: [],
-    year: '2023',
-    ar: {
-      category: 'المياه المثلجة والتبريد',
-      title: 'غرفة ميكانيكا المياه المثلجة لمبنى تجاري',
-      summary: 'تنفيذ شبكات المياه المثلجة وطلمبات التغذية والتجميع مع لوحات التحكم.',
-      sector: 'المباني التجارية والعقارية',
-      location: 'القاهرة الجديدة',
-      duration: '8 أشهر',
-      overview: [
-        'تنفيذ غرفة ميكانيكا متكاملة للمياه المثلجة تخدم مبنى تجاريًا كبيرًا، وتشمل مجمّعات التغذية والراجع وطلمبات التدوير ولوحات التحكم والتوصيلات الكهروميكانيكية.',
-        'تم عزل كافة الخطوط حراريًا وترقيمها بعلامات اتجاه السريان (Supply / Return / Discharge) لتسهيل التشغيل والصيانة، مع تنفيذ الدعامات المجلفنة ومسارات الحركة الآمنة.'
-      ],
-      scope: [
-        'مجمّعات التغذية والراجع (Headers) بفلانشات عمياء',
-        'طلمبات تدوير وخطوط طرد استانلس ستيل',
-        'عزل حراري وعلامات اتجاه السريان',
-        'دعامات فولاذية مجلفنة',
-        'لوحات تحكم وتشغيل تجريبي'
-      ],
-      specs: [
-        ['النظام', 'مياه مثلجة (Chilled Water)'],
-        ['العزل', 'عزل حراري بغلاف معدني'],
-        ['الدعامات', 'فولاذ مجلفن'],
-        ['التحكم', 'لوحات تشغيل محلية']
-      ]
-    },
-    en: {
-      category: 'Chilled Water & Cooling',
-      title: 'Chilled-water plant room for a commercial building',
-      summary: 'Chilled-water networks, circulation pumps and headers with control panels.',
-      sector: 'Commercial & Real Estate',
-      location: 'New Cairo',
-      duration: '8 months',
-      overview: [
-        'A complete chilled-water plant room serving a large commercial building, including supply and return headers, circulation pumps, control panels and electro-mechanical connections.',
-        'All lines were thermally insulated and labelled with flow-direction markers (Supply / Return / Discharge) to ease operation and maintenance, supported on galvanised steel frames with safe walkways.'
-      ],
-      scope: [
-        'Supply and return headers with blind flanges',
-        'Circulation pumps and stainless steel discharge lines',
-        'Thermal insulation and flow-direction labelling',
-        'Galvanised steel supports',
-        'Control panels and trial commissioning'
-      ],
-      specs: [
-        ['System', 'Chilled water'],
-        ['Insulation', 'Thermal, metal-clad'],
-        ['Supports', 'Galvanised steel'],
-        ['Control', 'Local operation panels']
-      ]
-    }
-  },
-  {
-    id: 'fire-pump-room',
-    image: 'project-5.jpg',
-    gallery: [],
-    year: '2025',
+    id: 'owest-fire-fighting',
+    image: 'projects/owest/hero.jpg',
+    gallery: ['projects/owest/1.jpg', 'projects/owest/2.jpg', 'projects/owest/3.jpg', 'projects/owest/4.jpg', 'projects/owest/5.jpg'],
+    year: '',
     ar: {
       category: 'مكافحة الحريق',
-      title: 'غرفة طلمبات الحريق بمحرك ديزل واحتياطي كهربائي',
-      summary: 'محطة ضخ حريق متكاملة (كهرباء + ديزل + جوكي) مع لوحات الإنذار والتحكم.',
-      sector: 'المخازن والخدمات اللوجستية',
-      location: 'العين السخنة، السويس',
-      duration: '4 أشهر',
+      title: 'O West – أعمال شبكة مكافحة الحريق',
+      summary: 'تنفيذ شبكة مكافحة الحريق بمستويات الـ Basement وخطوط تغذية صناديق الحريق للبلوكات 4 و6 و8 والمنطقة التجارية.',
+      sector: 'التطوير العقاري السكني',
+      location: 'O West، السادس من أكتوبر',
+      duration: '',
       overview: [
-        'تنفيذ غرفة طلمبات حريق متكاملة لمركز لوجستي، تضم طلمبة كهربائية رئيسية وطلمبة ديزل احتياطية وطلمبة جوكي عمودية للحفاظ على ضغط الشبكة، مع لوحات تحكم وإنذار.',
-        'صُمّمت المنظومة لتعمل ذاتيًا عند انقطاع التيار الكهربائي، مع خطوط مواسير كبيرة القطر وصمامات بوابة ومقاييس ضغط وتوصيلات مرنة للحد من الاهتزاز.'
+        'تم تنفيذ أعمال شبكة مكافحة الحريق بمشروع O West – السادس من أكتوبر، وتشمل أعمال شبكة الحريق بمستويات الـ Basement، وخطوط التغذية الخاصة بصناديق الحريق، بالإضافة إلى تنفيذ وتركيب صناديق الحريق لخدمة البلوكات 4 و6 و8 والمنطقة التجارية.',
+        'تم تنفيذ الأعمال كمقاول عام لصالح شركة Red Sea، بالإضافة إلى تنفيذ أعمال كمقاول عام بالتعاون مع شركة النظم الهندسية، والشركة العربية الدولية، وشركة End Fire.'
       ],
       scope: [
-        'طلمبة حريق كهربائية رئيسية',
-        'طلمبة حريق ديزل احتياطية',
-        'طلمبة جوكي عمودية لتثبيت الضغط',
-        'لوحات التحكم والإنذار',
-        'مواسير كبيرة القطر وصمامات بوابة ومقاييس ضغط'
+        'تنفيذ شبكة مكافحة الحريق بمستويات الـ Basement',
+        'خطوط التغذية الرئيسية لصناديق الحريق',
+        'تركيب وتوصيل صناديق الحريق للبلوكات 4 و6 و8',
+        'تغطية المنطقة التجارية بالمشروع بأنظمة الحماية من الحريق'
       ],
       specs: [
-        ['المضخات', 'كهرباء + ديزل + جوكي'],
-        ['التحكم', 'لوحات تشغيل أوتوماتيكية'],
-        ['الصمامات', 'بوابة بمؤشر'],
-        ['الحماية', 'تشغيل عند انقطاع الكهرباء']
+        ['الدور', 'مقاول عام لصالح Red Sea'],
+        ['شركاء التنفيذ', 'النظم الهندسية، الشركة العربية الدولية، End Fire'],
+        ['نطاق التغطية', 'البلوكات 4، 6، 8 + المنطقة التجارية'],
+        ['المستويات', 'أدوار الـ Basement']
       ]
     },
     en: {
       category: 'Fire Fighting',
-      title: 'Fire pump room with diesel driver and electric duty pump',
-      summary: 'A complete fire pump station (electric + diesel + jockey) with alarm and control panels.',
-      sector: 'Warehousing & Logistics',
-      location: 'Ain Sokhna, Suez',
-      duration: '4 months',
+      title: 'O West – Fire Fighting Network',
+      summary: 'Execution of fire fighting network works at basement level with feed lines to fire hose cabinets serving Blocks 4, 6 and 8 and the commercial area.',
+      sector: 'Residential Real Estate',
+      location: 'O West, 6th of October City',
+      duration: '',
       overview: [
-        'A complete fire pump room for a logistics hub, featuring a main electric pump, a standby diesel pump and a vertical jockey pump to maintain network pressure, with control and alarm panels.',
-        'The system starts automatically on power failure, with large-diameter pipework, gate valves, pressure gauges and flexible connections to reduce vibration.'
+        'Execution of fire fighting network works at O West, 6th of October, including basement-level fire fighting installations, supply lines feeding fire hose cabinets, and installation of fire hose cabinets serving Blocks 4, 6 and 8, as well as the commercial area.',
+        'The works were executed as General Contractor for Red Sea, in addition to general contracting works carried out in cooperation with El-Nosourm El-Handaseya, El-Arabia International, and End Fire.'
       ],
       scope: [
-        'Main electric fire pump',
-        'Standby diesel fire pump',
-        'Vertical jockey pump for pressure maintenance',
-        'Control and alarm panels',
-        'Large-diameter pipework, gate valves and gauges'
+        'Fire fighting network installation at basement levels',
+        'Main feed lines for fire hose cabinets',
+        'Installation and connection of fire hose cabinets for Blocks 4, 6 and 8',
+        'Fire protection coverage for the project’s commercial area'
       ],
       specs: [
-        ['Pumps', 'Electric + diesel + jockey'],
-        ['Control', 'Automatic operation panels'],
-        ['Valves', 'Indicating gate valves'],
-        ['Protection', 'Auto-start on power failure']
+        ['Role', 'General Contractor for Red Sea'],
+        ['Delivery partners', 'El-Nosourm El-Handaseya, El-Arabia International, End Fire'],
+        ['Coverage', 'Blocks 4, 6, 8 + commercial area'],
+        ['Levels', 'Basement levels']
       ]
     }
   },
   {
-    id: 'high-rise-sprinkler-main',
-    image: 'project-6.jpg',
-    gallery: [],
-    year: '2025',
+    id: 'r5-gardenia-city',
+    image: 'projects/r5-gardenia/hero.jpg',
+    gallery: ['projects/r5-gardenia/1.jpg', 'projects/r5-gardenia/2.jpg', 'projects/r5-gardenia/3.jpg', 'projects/r5-gardenia/4.jpg'],
+    year: '',
     ar: {
       category: 'مكافحة الحريق',
-      title: 'رايزرات الرشاشات الرئيسية ومحطة الحريق لمبنى متعدد الأدوار',
-      summary: 'شبكة رشاشات رئيسية وفروع تغذية بأقطار كبيرة مع محطة ضخ ولوحة تحكم مركزية.',
-      sector: 'المباني التجارية والعقارية',
+      title: 'جاردينيا سيتي – R5 كلاستر 11 | العاصمة الإدارية الجديدة',
+      summary: 'تنفيذ شبكة مكافحة الحريق بالكامل على ثلاثة مستويات Basement، بالتعاون مع شركة أوراسكوم.',
+      sector: 'التطوير العقاري السكني',
       location: 'العاصمة الإدارية الجديدة',
-      duration: '9 أشهر',
+      duration: '',
       overview: [
-        'تنفيذ الشبكة الرئيسية للرشاشات (Sprinkler Main) لمبنى إداري متعدد الأدوار، تضم رايزرات رأسية وفروعًا أفقية بأقطار كبيرة، وتغذّيها محطة ضخ حريق ولوحة تحكم مركزية.',
-        'تم تركيب مقاييس ضغط على كل رايزر، ووضع ملصقات اتجاه السريان وضغط التشغيل، وتنفيذ تسليك كهربائي منظم للوحة التحكم، مع اختبار الضغط عند 175 PSI قبل التسليم.'
+        'مشروع سكني تم تنفيذه بالتعاون مع شركة أوراسكوم من خلال تنفيذ الأعمال من الباطن. شملت نطاقات العمل تنفيذ شبكة مكافحة الحريق بالكامل على ثلاثة مستويات من الـ Basement، بالإضافة إلى تنفيذ خطوط تغذية صناديق الحريق، وغرف المحابس، ومناطق التحكم Control Zones.',
+        'تم تنفيذ الأعمال وفقًا لأصول التنفيذ الهندسية، مع الاهتمام بجودة أعمال التركيب والتنسيق بين مكونات نظام مكافحة الحريق والبنية التحتية للمشروع.'
       ],
       scope: [
-        'رايزرات رأسية وفروع تغذية أفقية بأقطار كبيرة',
-        'شبكة الرشاشات الفرعية بالأدوار',
-        'محطة الضخ ولوحة التحكم المركزية',
-        'مقاييس الضغط وملصقات اتجاه السريان',
-        'اختبار ضغط عند 175 PSI'
+        'تنفيذ شبكة مكافحة الحريق الكاملة على 3 مستويات Basement',
+        'تركيب خطوط تغذية صناديق الحريق',
+        'تنفيذ غرف المحابس (Valve Rooms)',
+        'تجهيز مناطق التحكم (Control Zones) وتنسيقها مع البنية التحتية للمشروع'
       ],
       specs: [
-        ['ضغط الاختبار', '175 PSI'],
-        ['الشبكة', 'رايزرات وفروع بأقطار كبيرة'],
-        ['المضخات', 'طلمبة انشطارية (Split Case)'],
-        ['التحكم', 'لوحة تحكم مركزية']
+        ['الدور', 'مقاول من الباطن لصالح أوراسكوم'],
+        ['المستويات', '3 أدوار Basement'],
+        ['المكونات', 'غرف محابس + مناطق تحكم'],
+        ['نوع المشروع', 'سكني']
       ]
     },
     en: {
       category: 'Fire Fighting',
-      title: 'Main sprinkler risers and fire pump station for a multi-storey building',
-      summary: 'Main sprinkler network with large-diameter feeders, a pump station and a central control panel.',
-      sector: 'Commercial & Real Estate',
+      title: 'Gardenia City – R5 Cluster 11 | New Administrative Capital',
+      summary: 'Execution of the complete fire fighting network across three basement levels, in cooperation with Orascom.',
+      sector: 'Residential Real Estate',
       location: 'New Administrative Capital',
-      duration: '9 months',
+      duration: '',
       overview: [
-        'Execution of the main sprinkler network for a multi-storey office building — vertical risers and large-diameter horizontal feeders — supplied by a fire pump station and central control panel.',
-        'Pressure gauges were fitted to every riser, flow-direction and operating-pressure labels applied, and the panel wiring neatly organised, with a pressure test at 175 PSI before handover.'
+        'A residential project executed in cooperation with Orascom as a subcontractor. The scope of work included the execution of the complete fire fighting network across three basement levels, in addition to the installation of fire hose cabinet supply lines, valve rooms, and control zone assemblies.',
+        'The works were carried out with a focus on professional installation, proper system coordination, and high-quality execution of the fire protection infrastructure throughout the project.'
       ],
       scope: [
-        'Vertical risers and large-diameter horizontal feeders',
-        'Branch sprinkler network on each floor',
-        'Pump station and central control panel',
-        'Pressure gauges and flow-direction labelling',
-        'Pressure test at 175 PSI'
+        'Complete fire fighting network across 3 basement levels',
+        'Installation of fire hose cabinet supply lines',
+        'Execution of valve rooms',
+        'Control zone assemblies coordinated with project infrastructure'
       ],
       specs: [
-        ['Test pressure', '175 PSI'],
-        ['Network', 'Large-diameter risers & feeders'],
-        ['Pumps', 'Split-case pump'],
-        ['Control', 'Central control panel']
+        ['Role', 'Subcontractor for Orascom'],
+        ['Levels', '3 basement levels'],
+        ['Components', 'Valve rooms + control zones'],
+        ['Project type', 'Residential']
+      ]
+    }
+  },
+  {
+    id: 'v-cloud9-hotel',
+    image: 'projects/v-cloud9/hero.jpg',
+    gallery: ['projects/v-cloud9/1.jpg', 'projects/v-cloud9/2.jpg'],
+    year: '',
+    ar: {
+      category: 'مكافحة الحريق',
+      title: 'V Cloud 9 Hotel – سهل حشيش، الغردقة',
+      summary: 'تنفيذ الشبكة الرئيسية لمكافحة الحريق وخطوط التغذية بطول مبنى الفندق (نحو 400 متر)، مع غرف طلمبات الحريق ومناطق التحكم.',
+      sector: 'الفنادق والقطاع السياحي',
+      location: 'سهل حشيش، الغردقة',
+      duration: '',
+      overview: [
+        'تم تنفيذ أعمال توريد وتركيب شبكة مكافحة الحريق بفندق V Cloud 9 Hotel في سهل حشيش – الغردقة، حيث شمل نطاق الأعمال تنفيذ الشبكة الرئيسية لمكافحة الحريق وخطوط التغذية الممتدة بطول المبنى، بالإضافة إلى تنفيذ الفروع المغذية للغرف والشاليهات وغرف الخدمات.',
+        'يتكون الفندق من مبنى طولي يمتد لمسافة تقارب 400 متر، وتخدم الشبكة الرئيسية نقاط مكافحة الحريق من خلال خطوط التغذية الرئيسية الممتدة داخل الممرات، مع تنفيذ توصيلات فرعية لتغذية الغرف والشاليهات وغرف الخدمات على جانبي الممر، بحيث يتم تغذية كل غرفة بنقطتين لمكافحة الحريق.',
+        'شملت الأعمال كذلك تنفيذ وتجهيز غرف مضخات الحريق (Fire Pump Rooms) ومناطق التحكم بالشبكة (Control Zones)، إلى جانب تنفيذ شبكة مياه الإطفاء وخطوط تغذية صناديق الحريق، مع مراعاة جودة التركيب ودقة مسارات المواسير والتنسيق الكامل مع الأعمال الكهروميكانيكية والمعمارية بالمشروع.'
+      ],
+      scope: [
+        'الشبكة الرئيسية لمكافحة الحريق وخطوط التغذية بطول المبنى (نحو 400 متر)',
+        'توصيلات فرعية لتغذية الغرف والشاليهات وغرف الخدمات (نقطتان لكل غرفة)',
+        'تنفيذ غرف مضخات الحريق (Fire Pump Rooms)',
+        'تجهيز مناطق التحكم بالشبكة (Control Zones) وشبكة مياه الإطفاء'
+      ],
+      specs: [
+        ['طول المبنى', 'نحو 400 متر'],
+        ['التغذية', 'نقطتا حريق لكل غرفة'],
+        ['المكونات', 'غرف طلمبات حريق + مناطق تحكم'],
+        ['النطاق', 'غرف وشاليهات وغرف خدمات']
+      ]
+    },
+    en: {
+      category: 'Fire Fighting',
+      title: 'V Cloud 9 Hotel – Sahl Hasheesh, Hurghada',
+      summary: 'Execution of the main fire fighting network and feed lines along the ~400m hotel building, with fire pump rooms and control zones.',
+      sector: 'Hospitality & Tourism',
+      location: 'Sahl Hasheesh, Hurghada',
+      duration: '',
+      overview: [
+        'Supply and installation of the fire fighting network at V Cloud 9 Hotel in Sahl Hasheesh, Hurghada, covering the main fire fighting network and feed lines running the length of the building, plus branch connections feeding the rooms, chalets and service rooms.',
+        'The hotel is a linear building roughly 400 metres long. The main network feeds fire points through main lines running along the corridors, with branch connections feeding the rooms, chalets and service rooms on both sides, so that each room is served by two fire points.',
+        'The works also included the execution of Fire Pump Rooms and network Control Zones, together with the fire water (shield) network and fire hose cabinet feed lines — with close attention to installation quality, accurate pipe routing, and full coordination with the project’s electromechanical and architectural works.'
+      ],
+      scope: [
+        'Main fire fighting network and feed lines along the ~400m building',
+        'Branch connections feeding rooms, chalets and service rooms (two fire points per room)',
+        'Execution of Fire Pump Rooms',
+        'Network Control Zones and the fire water network'
+      ],
+      specs: [
+        ['Building length', '~400 metres'],
+        ['Feed', 'Two fire points per room'],
+        ['Components', 'Fire pump rooms + control zones'],
+        ['Coverage', 'Rooms, chalets & service rooms']
       ]
     }
   }
 ];
 
 /* Hero background rotation (image file names) */
-const HERO_IMAGES = ['project-5.jpg', 'project-1.jpg', 'project-3.jpg', 'project-2.jpg'];
+const HERO_IMAGES = ['projects/v-cloud9/hero.jpg', 'projects/owest/hero.jpg', 'projects/r5-gardenia/hero.jpg', 'projects/ministry-fire-fighting/hero.jpg'];
 
 /* Inline SVG icons (24x24 stroke icons) */
 const ICONS = {

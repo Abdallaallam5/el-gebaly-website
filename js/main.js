@@ -75,8 +75,9 @@
     }).join('');
 
     $('partnersGrid').innerHTML = t('partners.list').map(function (s, i) {
-      return '<div class="partner reveal" style="--d:' + (i * 60) + 'ms">' + icon(s.icon, 'ic ic-lg') +
-        '<strong>' + s.t + '</strong><span>' + s.d + '</span></div>';
+      return '<div class="partner reveal" style="--d:' + (i * 60) + 'ms">' +
+        '<img src="assets/img/partners/' + s.logo + '" alt="' + s.t + '" loading="lazy">' +
+        '<span class="partner-name">' + s.t + '</span></div>';
     }).join('');
 
     var sel = $('fService');

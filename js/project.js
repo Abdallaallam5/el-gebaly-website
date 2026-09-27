@@ -38,7 +38,8 @@
     var info = [
       ['proj.sector', d.sector], ['proj.location', d.location],
       ['proj.year', p.year], ['proj.duration', d.duration], ['proj.status', t('proj.status.v')]
-    ].map(function (r) { return '<li><span>' + t(r[0]) + '</span><b>' + esc(r[1]) + '</b></li>'; }).join('');
+    ].filter(function (r) { return r[1]; })
+     .map(function (r) { return '<li><span>' + t(r[0]) + '</span><b>' + esc(r[1]) + '</b></li>'; }).join('');
 
     $('pBody').innerHTML =
       '<div class="p-main">' +
