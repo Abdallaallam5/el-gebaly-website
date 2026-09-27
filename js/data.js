@@ -8,8 +8,13 @@
 const SITE = {
   phone: '01505994910',
   phoneIntl: '+201505994910',
+  phone2: '01222270475',
+  phone2Intl: '+201222270475',
+  phone3: '01113332057',
+  phone3Intl: '+201113332057',
   whatsapp: '201505994910',
-  email: 'osamaelgebaly94@gmail.com'
+  email: 'osamaelgebaly94@gmail.com',
+  mapsUrl: 'https://maps.app.goo.gl/3CnaM4BQ5npPNpDRA?g_st=aw'
 };
 
 const I18N = {
@@ -40,16 +45,16 @@ const I18N = {
     'hero.cta2': 'شاهد مشروعاتنا',
     'hero.scroll': 'اكتشف المزيد',
 
-    'stats.1.v': '15', 'stats.1.l': 'سنة من الخبرة الميدانية',
+    'stats.1.v': '25', 'stats.1.l': 'سنة من الخبرة الميدانية',
     'stats.2.v': '150', 'stats.2.l': 'مشروع صناعي منفّذ',
     'stats.3.v': '40', 'stats.3.l': 'مهندس وفنّي متخصص',
     'stats.4.v': '100', 'stats.4.l': 'تغطية لجميع محافظات مصر', 'stats.4.s': '%',
 
     'about.eyebrow': 'من نحن',
     'about.title': 'شريك هندسي تعتمد عليه المصانع في تنفيذ أدق الأعمال',
-    'about.p1': 'الجبالي للتطوير الهندسي شركة مصرية متخصصة في تنفيذ شبكات المواسير والأعمال الميكانيكية للمنشآت الصناعية والتجارية. نجمع بين الخبرة الميدانية والفكر الهندسي الدقيق لنقدّم أنظمة تعمل بكفاءة وأمان لسنوات طويلة.',
+    'about.p1': 'تأسست الجبالي للتطوير الهندسي عام 2000، وتمتد خبرتها منذ ذلك الحين لأكثر من 25 عامًا في تنفيذ شبكات المواسير والأعمال الميكانيكية للمنشآت الصناعية والتجارية. نجمع بين الخبرة الميدانية العريقة والفكر الهندسي الدقيق لنقدّم أنظمة تعمل بكفاءة وأمان لسنوات طويلة.',
     'about.p2': 'يعمل لدينا فريق من المهندسين والفنيين واللحّامين المعتمدين، بإشراف مباشر على كل مرحلة من مراحل المشروع: التصميم التنفيذي، التوريد، التركيب، اختبارات الضغط والتشغيل، ثم التسليم والدعم بعد التنفيذ.',
-    'about.badge.v': '+15',
+    'about.badge.v': '+25',
     'about.badge.l': 'سنة من التميّز',
     'about.vision.t': 'رؤيتنا',
     'about.vision.d': 'أن نكون الاسم الأول في مصر للحلول الميكانيكية والمواسير الصناعية، بمعيار جودة وسلامة لا نتنازل عنه.',
@@ -136,6 +141,8 @@ const I18N = {
     'footer.contact': 'بيانات التواصل',
     'footer.rights': 'جميع الحقوق محفوظة',
     'footer.top': 'العودة للأعلى',
+    'footer.whatsapp': 'راسلنا على واتساب',
+    'footer.location': 'موقعنا على الخريطة',
 
     'proj.back': 'العودة إلى المشروعات',
     'proj.overview': 'نظرة عامة على المشروع',
@@ -183,16 +190,16 @@ const I18N = {
     'hero.cta2': 'View Our Projects',
     'hero.scroll': 'Discover more',
 
-    'stats.1.v': '15', 'stats.1.l': 'Years of field experience',
+    'stats.1.v': '25', 'stats.1.l': 'Years of field experience',
     'stats.2.v': '150', 'stats.2.l': 'Industrial projects delivered',
     'stats.3.v': '40', 'stats.3.l': 'Engineers & specialist technicians',
     'stats.4.v': '100', 'stats.4.l': 'Coverage across all of Egypt', 'stats.4.s': '%',
 
     'about.eyebrow': 'About Us',
     'about.title': 'The engineering partner factories rely on for their most demanding work',
-    'about.p1': 'El-Gebaly Engineering Development is an Egyptian company specialised in executing piping networks and mechanical works for industrial and commercial facilities. We combine hands-on field experience with precise engineering to deliver systems that run efficiently and safely for years.',
+    'about.p1': 'Founded in 2000, El-Gebaly Engineering Development brings more than 25 years of experience executing piping networks and mechanical works for industrial and commercial facilities. We combine deep-rooted field experience with precise engineering to deliver systems that run efficiently and safely for years.',
     'about.p2': 'Our team of engineers, technicians and certified welders supervises every stage of the project — detailed design, procurement, installation, pressure and commissioning tests, followed by handover and after-delivery support.',
-    'about.badge.v': '+15',
+    'about.badge.v': '+25',
     'about.badge.l': 'Years of excellence',
     'about.vision.t': 'Our Vision',
     'about.vision.d': 'To be Egypt’s first name in industrial piping and mechanical solutions, with a quality and safety standard we never compromise.',
@@ -279,6 +286,8 @@ const I18N = {
     'footer.contact': 'Contact details',
     'footer.rights': 'All rights reserved',
     'footer.top': 'Back to top',
+    'footer.whatsapp': 'Message us on WhatsApp',
+    'footer.location': 'Find us on the map',
 
     'proj.back': 'Back to projects',
     'proj.overview': 'Project overview',
@@ -315,7 +324,7 @@ const PROJECTS = [
       title: 'شبكة مكافحة الحريق – وزارة التجارة والصناعة ووزارة التموين',
       summary: 'تنفيذ شبكة مكافحة الحريق بالكامل داخل مباني الوزارة، بما في ذلك جناح الوزير، بالتعاون مع شركة UNI-TEC.',
       sector: 'مبانٍ حكومية ومؤسسية',
-      location: 'مجمع الوزارات، القاهرة',
+      location: 'العاصمة الإدارية الجديدة',
       duration: '',
       overview: [
         'تم تنفيذ أعمال شبكة مكافحة الحريق بالكامل داخل مباني الوزارة، بما في ذلك جناح الوزير، وذلك من خلال تنفيذ الأعمال من الباطن بالتعاون مع شركة UNI-TEC.',
@@ -339,7 +348,7 @@ const PROJECTS = [
       title: 'Fire Fighting Network – Ministry of Trade & Industry and Ministry of Supply',
       summary: 'Complete execution of the fire fighting network throughout the ministry facilities, including the Minister’s Wing, in cooperation with UNI-TEC.',
       sector: 'Government & Institutional Buildings',
-      location: 'Ministries Complex, Cairo',
+      location: 'New Administrative Capital',
       duration: '',
       overview: [
         'Complete execution of the fire fighting network throughout the ministry facilities, including the Minister’s Wing. The works were carried out as a subcontractor in cooperation with UNI-TEC.',
@@ -367,48 +376,48 @@ const PROJECTS = [
     ar: {
       category: 'شبكات البخار والمكثفات',
       title: 'فندق Flow Paradise سهل حشيش – أعمال شبكة البخار',
-      summary: 'توريد وتركيب شبكة البخار داخل غرفة الغلايات وغرفة المغسلة، بالتعاون مع شركة براميدا للمنتجعات السياحية.',
+      summary: 'توريد وتركيب شبكة البخار داخل غرفة الغلايات وغرفة المغسلة بفندق Flow Paradise سهل حشيش، بتنفيذ مباشر من الجبالي للتطوير الهندسي.',
       sector: 'الفنادق والقطاع السياحي',
       location: 'سهل حشيش، الغردقة',
       duration: '',
       overview: [
-        'تم تنفيذ أعمال توريد وتركيب شبكة البخار داخل غرفة الغلايات وغرفة المغسلة بفندق Flow Paradise سهل حشيش – الغردقة.',
-        'تم تنفيذ الأعمال بالتعاون مع شركة براميدا للمنتجعات السياحية كمقاول عام، وشملت الأعمال تنفيذ وتركيب شبكة البخار وربطها بالخدمات الخاصة بغرفة الغلايات والمغسلة وفقًا لأصول التنفيذ الهندسية.'
+        'نفّذت الجبالي للتطوير الهندسي أعمال توريد وتركيب شبكة البخار بالكامل داخل غرفة الغلايات وغرفة المغسلة بفندق Flow Paradise سهل حشيش – الغردقة، بصفتها المقاول المسؤول عن تنفيذ الشبكة.',
+        'شملت الأعمال تنفيذ وتركيب شبكة البخار وربطها بالخدمات الخاصة بغرفة الغلايات والمغسلة، وفقًا لأصول التنفيذ الهندسية وأعلى معايير الجودة والسلامة.'
       ],
       scope: [
         'توريد وتركيب شبكة مواسير البخار الرئيسية',
         'ربط الشبكة بغرفة الغلايات (Boiler Room)',
         'تغذية غرفة المغسلة (Laundry) بخطوط البخار والمكثفات',
-        'تنفيذ الأعمال بالتعاون مع المقاول العام "براميدا للمنتجعات السياحية"'
+        'الإشراف الكامل على التنفيذ من التوريد وحتى التسليم'
       ],
       specs: [
         ['النظام', 'شبكة بخار ومكثفات'],
         ['يخدم', 'غرفة الغلايات وغرفة المغسلة'],
-        ['المقاول العام', 'براميدا للمنتجعات السياحية'],
+        ['التنفيذ', 'تنفيذ مباشر بواسطة الجبالي للتطوير الهندسي'],
         ['العزل', 'عزل حراري كامل لخطوط التغذية']
       ]
     },
     en: {
       category: 'Steam & Condensate Networks',
       title: 'Flow Paradise Sahl Hasheesh Hotel – Steam Network',
-      summary: 'Supply and installation of the steam piping network serving the boiler room and laundry facilities, in cooperation with Pramida for Tourist Resorts.',
+      summary: 'Supply and installation of the steam piping network serving the boiler room and laundry facilities at Flow Paradise Sahl Hasheesh, executed directly by El-Gebaly Engineering Development.',
       sector: 'Hospitality & Tourism',
       location: 'Sahl Hasheesh, Hurghada',
       duration: '',
       overview: [
-        'Supply and installation of the steam piping network serving the boiler room and laundry facilities at Flow Paradise Sahl Hasheesh Hotel, Hurghada.',
-        'The works were executed in cooperation with Pramida for Tourist Resorts as general contractor, covering the professional installation and integration of the steam piping system within the hotel’s operational facilities.'
+        'El-Gebaly Engineering Development carried out the complete supply and installation of the steam piping network serving the boiler room and laundry facilities at Flow Paradise Sahl Hasheesh Hotel, Hurghada, as the contractor responsible for the network.',
+        'The works included the installation of the steam piping network and its connection to the boiler room and laundry facilities, in line with professional engineering practice and the highest quality and safety standards.'
       ],
       scope: [
         'Supply and installation of the main steam piping network',
         'Connection of the network to the boiler room',
         'Feeding the laundry facility with steam and condensate lines',
-        'Works executed in cooperation with general contractor Pramida for Tourist Resorts'
+        'Full oversight of execution from supply through to handover'
       ],
       specs: [
         ['System', 'Steam & condensate network'],
         ['Serves', 'Boiler room and laundry facility'],
-        ['General contractor', 'Pramida for Tourist Resorts'],
+        ['Execution', 'Delivered directly by El-Gebaly Engineering Development'],
         ['Insulation', 'Full thermal insulation of feed lines']
       ]
     }
@@ -427,7 +436,7 @@ const PROJECTS = [
       duration: '',
       overview: [
         'تم تنفيذ أعمال شبكة مكافحة الحريق بمشروع O West – السادس من أكتوبر، وتشمل أعمال شبكة الحريق بمستويات الـ Basement، وخطوط التغذية الخاصة بصناديق الحريق، بالإضافة إلى تنفيذ وتركيب صناديق الحريق لخدمة البلوكات 4 و6 و8 والمنطقة التجارية.',
-        'تم تنفيذ الأعمال كمقاول عام لصالح شركة Red Sea، بالإضافة إلى تنفيذ أعمال كمقاول عام بالتعاون مع شركة النظم الهندسية، والشركة العربية الدولية، وشركة End Fire.'
+        'تم تنفيذ الأعمال كمقاول عام لصالح شركة Red Sea، بما يعكس ثقة العميل في خبرة الجبالي للتطوير الهندسي في تنفيذ مشروعات مكافحة الحريق بأعلى معايير الجودة.'
       ],
       scope: [
         'تنفيذ شبكة مكافحة الحريق بمستويات الـ Basement',
@@ -437,9 +446,9 @@ const PROJECTS = [
       ],
       specs: [
         ['الدور', 'مقاول عام لصالح Red Sea'],
-        ['شركاء التنفيذ', 'النظم الهندسية، الشركة العربية الدولية، End Fire'],
         ['نطاق التغطية', 'البلوكات 4، 6، 8 + المنطقة التجارية'],
-        ['المستويات', 'أدوار الـ Basement']
+        ['المستويات', 'أدوار الـ Basement'],
+        ['نوع المشروع', 'سكني']
       ]
     },
     en: {
@@ -451,7 +460,7 @@ const PROJECTS = [
       duration: '',
       overview: [
         'Execution of fire fighting network works at O West, 6th of October, including basement-level fire fighting installations, supply lines feeding fire hose cabinets, and installation of fire hose cabinets serving Blocks 4, 6 and 8, as well as the commercial area.',
-        'The works were executed as General Contractor for Red Sea, in addition to general contracting works carried out in cooperation with El-Nosourm El-Handaseya, El-Arabia International, and End Fire.'
+        'The works were executed as General Contractor for Red Sea, reflecting the client’s confidence in El-Gebaly Engineering Development’s expertise in delivering fire fighting projects to the highest quality standards.'
       ],
       scope: [
         'Fire fighting network installation at basement levels',
@@ -461,9 +470,9 @@ const PROJECTS = [
       ],
       specs: [
         ['Role', 'General Contractor for Red Sea'],
-        ['Delivery partners', 'El-Nosourm El-Handaseya, El-Arabia International, End Fire'],
         ['Coverage', 'Blocks 4, 6, 8 + commercial area'],
-        ['Levels', 'Basement levels']
+        ['Levels', 'Basement levels'],
+        ['Project type', 'Residential']
       ]
     }
   },
