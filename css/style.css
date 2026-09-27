@@ -215,6 +215,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .contact-list li:hover .icon-box { transform: rotate(-6deg) scale(1.1); }
 .contact-list small { display: block; color: var(--muted); font-size: .85rem; line-height: 1.4; }
 .contact-list a, .contact-list span { font-weight: 700; color: var(--navy); font-size: 1.08rem; }
+.contact-list a.stacked { display: block; }
 .contact-list a:hover { color: var(--accent); }
 .form { background: #fff; padding: 36px; border-radius: 18px; box-shadow: var(--shadow); display: grid; gap: 18px; border: 1px solid var(--line); }
 .form .row { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }

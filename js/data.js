@@ -6,12 +6,10 @@
    ===================================================================== */
 
 const SITE = {
-  phone: '01505994910',
-  phoneIntl: '+201505994910',
-  phone2: '01222270475',
-  phone2Intl: '+201222270475',
-  phone3: '01113332057',
-  phone3Intl: '+201113332057',
+  phone: '01222270475',
+  phoneIntl: '+201222270475',
+  phone2: '01113332057',
+  phone2Intl: '+201113332057',
   whatsapp: '201505994910',
   email: 'osamaelgebaly94@gmail.com',
   mapsUrl: 'https://maps.app.goo.gl/3CnaM4BQ5npPNpDRA?g_st=aw'
